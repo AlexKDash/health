@@ -2,14 +2,14 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: xx-large;
 	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	
+	padding: 20px;
 	text-align: center;
 }
 .buttonStyle {
 	border-radius: 4px;
-	border: thin solid #F0E020;
+	border: thin solid ;
 	padding: 5px;
 	background-color: #F8F094;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -26,7 +26,41 @@
 }
 .buttonStyle:active {
 	border: thin solid #99CC00;
-	background-color: #F5FFD2;
+	background-color: #F5FFD2 ;
 	color: #669900;
 	cursor: pointer;
 } 
+
+body {
+    background-image: url("http://www.familymart.com.ph/assets/Uploads/abstract-blue-green-bg.jpg");
+    background-color: #cccccc;
+} 
+
+
+
+/* the container */
+#fatsecret_container {
+border:10px solid #000000;
+}
+
+/* heading in the canvas */
+#fatsecret_container .fatsecret_heading {
+color:#3472AB;
+}
+
+/* all buttons in the canvas */
+#fatsecret_container .fatsecret_button {
+border:1px solid #4592C0;
+background-color:#D8ECF7;
+}
+
+/* item separators */
+#fatsecret_container .fatsecret_borderbottom {
+border-bottom:1px solid #D8ECF7;
+}
+
+/* footer */
+.fatsecret_footer {
+text-align:center;
+padding:5px 0;
+}
